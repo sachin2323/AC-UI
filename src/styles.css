@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  --font-primary: "Roboto Slab", serif;
+  --font-primary: "Helvetica", ans-serif;
   --font-secondary: "Comfortaa", cursive;
 }
 
@@ -11,8 +11,8 @@ button {
 }
 
 header {
-  background: cyan;
-  color: #575454;
+  background: rgb(76, 192, 212);
+  color: #302f2f;
 }
 
 footer {
@@ -66,10 +66,10 @@ footer {
   width: 25rem;
   background-color: #fff;
   display: grid;
-  grid-template-areas: 
-  "temperature temperature"
-  "mode intensity"
-  "swing timer";
+  grid-template-areas:
+    "temperature temperature"
+    "mode intensity"
+    "swing timer";
   grid-template-columns: 12rem 12rem;
   grid-row: auto auto;
   grid-column-gap: 1rem;
@@ -95,7 +95,7 @@ footer {
   padding: 5px 10px;
   border-radius: 10px;
   border: groove 2px;
-  background: cyan;
+  background: rgb(72, 175, 194);
 }
 
 .field {

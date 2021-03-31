@@ -60,7 +60,7 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <h1>AC UI</h1>
+        <h1>Air Conditioner Panel UI</h1>
       </header>
 
       <div className="power">
