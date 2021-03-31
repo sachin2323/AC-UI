@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  --font-primary: "Roboto Slab", serif;
+  --font-secondary: "Comfortaa", cursive;
+}
+
+.App,
+button {
+  font-family: var(--font-primary);
+  text-align: center;
+}
+
+header {
+  background: cyan;
+  color: #575454;
+}
+
+footer {
+  background: darkblue;
+  color: rgb(218, 200, 200);
+}
+
+.powerbtn {
+  width: 5rem;
+  border: groove;
+  border-radius: 5px;
+}
+
+.help {
+  display: grid;
+  place-items: center;
+}
+
+.help button {
+  background: yellow;
+  margin: 20px;
+  padding: 5px;
+  width: 6.5rem;
+  border: groove;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.temperature {
+  grid-area: temperature;
+}
+
+.mode {
+  grid-area: mode;
+}
+
+.intensity {
+  grid-area: intensity;
+}
+
+.swing {
+  grid-area: swing;
+}
+
+.timer {
+  grid-area: timer;
+}
+
+.container {
+  margin: 20px auto 0px auto;
+  width: 25rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-areas: 
+  "temperature temperature"
+  "mode intensity"
+  "swing timer";
+  grid-template-columns: 12rem 12rem;
+  grid-row: auto auto;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.box {
+  /* font-family: var(--font-secondary); */
+  font-size: 1rem;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px #333;
+}
+
+.box button {
+  box-sizing: border-box;
+  appearance: none;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: groove 2px;
+  background: cyan;
+}
+
+.field {
+  /* font-family: var(--font-secondary); */
+  font-size: 1.2rem;
+  margin: auto 20px 20px;
+  border: ridge;
+  border-radius: 10px;
+}
+
+.temperature .field {
+  font-size: 2rem;
+  margin: 10px 100px;
+}
+
+.temperature button {
+  font-size: 1.5rem;
+  padding: 5px 12px;
+}
